@@ -1,3 +1,7 @@
-body {
-    background: gray
-}
+// components
+@import './components/layout';
+@import './components/sidebar';
+@import './components/mask';
+@import './components/img-card';
+@import './components/parallax';
+@import './components/carousel';

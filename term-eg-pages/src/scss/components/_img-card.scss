@@ -1,0 +1,16 @@
+.img-card {
+    position: relative;
+    max-height: 350px;
+    overflow: hidden;
+    img {
+        min-width: 100%;
+    }
+    h3 {
+        position: absolute;
+        bottom: 5%;
+        text-align: center;
+        width: 100%;
+        z-index: 2;
+        color: white
+    }
+}

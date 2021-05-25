@@ -1,5 +1,11 @@
 <%- include('./ejs/includes/head') -%>
     <div class="container">
         <h1>home page</h1>
+        <%- include('./ejs/views/home/mainCategory') -%>
+
     </div>
-    <%- include('./ejs/includes/footer') -%>
+    <%- include('./ejs/components/brand-slider') -%>
+        <%- include('./ejs/components/parallax', {bg:'./images/parallax.jpg'}) -%>
+            <%- include('./ejs/components/indev-slider') -%>
+                <%- include('./ejs/components/indev-slider') -%>
+                    <%- include('./ejs/includes/footer') -%>

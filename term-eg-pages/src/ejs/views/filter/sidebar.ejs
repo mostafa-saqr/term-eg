@@ -1,0 +1,27 @@
+<% var items= [1,2,3,4,5,6] %>
+    <div class="col-md-12 sidebar">
+        <h3 class="pt-3">Product Category</h3>
+        <div class="ps-2">
+            <% items.map((item)=>{ %>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="cat-<%=item%>">
+                    <label class="form-check-label" for="cat-<%=item%>">
+                    Category <%= item %> 
+            </label>
+                </div>
+                <% }) %>
+        </div>
+        <h3 class="pt-3">Brands</h3>
+        <div class="ps-2">
+            <% items.map((item)=>{ %>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="brand-<%=item%>">
+                    <label class="form-check-label" for="brand-<%=item%>">
+                    Brand <%= item %> 
+            </label>
+                </div>
+                <% }) %>
+        </div>
+    </div>
