@@ -17,8 +17,21 @@
         margin: 0 4px;
         span {
             font-size: 48px;
-            line-height: 0.5;
+            line-height: 0.8;
             color: #a7a7a7;
         }
+    }
+}
+
+.gallery {
+    .carousel-indicators {
+        bottom: -3.5rem;
+    }
+    .carousel-indicators [data-bs-target] {
+        width: 50px;
+        height: 30px;
+        border: 2px solid gray;
+        border-top: 2px solid gray;
+        border-bottom: 2px solid gray;
     }
 }

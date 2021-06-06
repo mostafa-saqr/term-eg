@@ -1,12 +1,14 @@
-<% var cardTitle, imgSrc = imgSrc || "https://via.placeholder.com/600x400" %>
+<% var cardTitle,url, imgSrc = imgSrc || "https://via.placeholder.com/600x400" %>
 
 
     <div class="img-card">
         <img src="<%= imgSrc %> " alt="" class="img-fluid">
         <div class="mask"></div>
         <div class="card-title">
-            <h3>
-                <%= cardTitle %>
-            </h3>
+            <a href="<%=url%>">
+                <h3>
+                    <%=cardTitle%>
+                </h3>
+            </a>
         </div>
     </div>

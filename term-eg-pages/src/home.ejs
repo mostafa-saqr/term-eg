@@ -1,11 +1,13 @@
 <%- include('./ejs/includes/head') -%>
-    <div class="container">
-        <h1>home page</h1>
-        <%- include('./ejs/views/home/mainCategory') -%>
+    <%- include('./ejs/components/header') -%>
+        <%- include('./ejs/components/banner') -%>
+            <div class="container">
 
-    </div>
-    <%- include('./ejs/components/brand-slider') -%>
-        <%- include('./ejs/components/parallax', {bg:'./images/parallax.jpg'}) -%>
-            <%- include('./ejs/components/indev-slider') -%>
-                <%- include('./ejs/components/indev-slider') -%>
-                    <%- include('./ejs/includes/footer') -%>
+                <%- include('./ejs/views/home/mainCategory') -%>
+
+            </div>
+            <%- include('./ejs/components/brand-slider') -%>
+                <%- include('./ejs/components/parallax', {bg:'./images/parallax.jpg'}) -%>
+                    <%- include('./ejs/components/indev-slider') -%>
+                        <%- include('./ejs/components/indev-slider') -%>
+                            <%- include('./ejs/includes/footer') -%>

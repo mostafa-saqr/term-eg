@@ -1,0 +1,26 @@
+.prod-banner {
+    height: 360px;
+    overflow: hidden;
+    position: relative;
+    .bann-content {
+        position: absolute;
+        bottom: 16%;
+        z-index: 2;
+        left: 8rem;
+        color: white;
+        h1 {
+            font-size: 3rem;
+            color: white;
+        }
+    }
+}
+
+.breadcrumb {
+    li,
+    a {
+        color: white;
+    }
+    .breadcrumb-item+.breadcrumb-item::before {
+        color: #ffffff;
+    }
+}

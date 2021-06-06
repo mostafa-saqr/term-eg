@@ -1,0 +1,14 @@
+<% var items = [1,1,1,1,1,1,1,1,1,1] %>
+
+    <div class="container pt-4 mt-4">
+        <h3 class="slider-title">Features</h3>
+        <div class="owl-carousel owl-theme brand-slider">
+            <% items.map((item)=>{ %>
+
+                <div class="item">
+                    <img src="https://via.placeholder.com/200" alt="">
+                    <h4 class="mt-2 text-center">Feature Title</h4>
+                </div>
+                <% }) %>
+        </div>
+    </div>

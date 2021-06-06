@@ -30,4 +30,6 @@ $('.indev-slider').owlCarousel({
             items: 3
         }
     }
-})
+});
+
+// mega menu

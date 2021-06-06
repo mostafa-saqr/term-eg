@@ -1,0 +1,14 @@
+<% var items = [1,1,1,1,1,1,1,1,1,1] %>
+
+    <div class="container pt-4 mt-4">
+        <h3 class="slider-title">Related Products</h3>
+        <div class="owl-carousel owl-theme indev-slider">
+            <% items.map((item)=>{ %>
+
+                <a href="/product-details/" class="item">
+                    <img src="http://dev.tomoum.com/wp-content/themes/realfactory/images/2021/product.jpg" alt="">
+                    <h4 class="mt-2 ">Mitsubishi Diesel Forklift 7.0 tonnes</h4>
+                </a>
+                <% }) %>
+        </div>
+    </div>

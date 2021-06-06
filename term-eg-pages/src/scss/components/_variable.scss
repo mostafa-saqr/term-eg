@@ -1,0 +1,9 @@
+$primaryColor:#ff561d;
+.mainColor {
+    color: $primaryColor !important;
+}
+
+.mainBg {
+    color: white !important;
+    background: $primaryColor !important;
+}

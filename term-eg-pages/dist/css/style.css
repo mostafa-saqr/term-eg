@@ -1,10 +1,50 @@
+.mainColor {
+  color: #ff561d !important; }
+
+.mainBg {
+  color: white !important;
+  background: #ff561d !important; }
+
 h1,
 h2,
 h3,
 h4,
-h5,
+h5 {
+  font-family: 'Bebas Neue', cursive !important; }
+
 h6 {
-  font-family: 'Bebas Neue', cursive; }
+  font-size: 15px !important; }
+
+.bg-dark {
+  background-color: rgba(0, 0, 0, 0.8) !important; }
+  .bg-dark .nav-link {
+    color: white !important; }
+
+.social-icons li {
+  margin: 0 8px; }
+  .social-icons li a {
+    color: white; }
+
+.prod-banner {
+  height: 360px;
+  overflow: hidden;
+  position: relative; }
+  .prod-banner .bann-content {
+    position: absolute;
+    bottom: 16%;
+    z-index: 2;
+    left: 8rem;
+    color: white; }
+    .prod-banner .bann-content h1 {
+      font-size: 3rem;
+      color: white; }
+
+.breadcrumb li,
+.breadcrumb a {
+  color: white; }
+
+.breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+  color: #ffffff; }
 
 .sidebar {
   background: #f6f6f6;
@@ -49,6 +89,9 @@ h6 {
     z-index: 2;
     color: white;
     width: 80%; }
+    .parallax .parallax-content h3 {
+      color: white !important;
+      font-size: 50px; }
 
 .slider-title {
   margin-bottom: 15px;
@@ -69,5 +112,54 @@ h6 {
     .owl-nav .owl-prev span,
     .owl-nav .owl-next span {
       font-size: 48px;
-      line-height: 0.5;
+      line-height: 0.8;
       color: #a7a7a7; }
+
+.gallery .carousel-indicators {
+  bottom: -3.5rem; }
+
+.gallery .carousel-indicators [data-bs-target] {
+  width: 50px;
+  height: 30px;
+  border: 2px solid gray;
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray; }
+
+.accordion-button:not(.collapsed) {
+  color: #ff561d;
+  background-color: #ffe3da;
+  box-shadow: 0 !important; }
+
+.accordion-button:focus {
+  border-color: transparent !important;
+  outline: none !important;
+  box-shadow: 0 0 0 0rem transparent !important; }
+
+.navbar .megamenu {
+  padding: 1rem; }
+  .navbar .megamenu a {
+    color: black; }
+
+.dropdown-menu {
+  background-color: #f7f7f7 !important; }
+
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+  .navbar .has-megamenu {
+    position: static !important; }
+  .navbar .megamenu {
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin-top: 0; } }
+
+/* ============ desktop view .end// ============ */
+/* ============ mobile view ============ */
+@media (max-width: 991px) {
+  .navbar.fixed-top .navbar-collapse,
+  .navbar.sticky-top .navbar-collapse {
+    overflow-y: auto;
+    max-height: 90vh;
+    margin-top: 10px; } }
+
+/* ============ mobile view .end// ============ */
