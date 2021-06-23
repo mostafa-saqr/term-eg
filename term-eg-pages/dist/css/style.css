@@ -57,7 +57,8 @@ h6 {
   height: 100%;
   background: rgba(0, 0, 0, 0.4);
   z-index: 1;
-  top: 0; }
+  top: 0;
+  left: 0; }
 
 .img-card {
   position: relative;
@@ -143,6 +144,12 @@ h6 {
 .dropdown-menu {
   background-color: #f7f7f7 !important; }
 
+.mega-col-list li {
+  display: flex;
+  align-items: center; }
+  .mega-col-list li img {
+    margin-right: 5px; }
+
 /* ============ desktop view ============ */
 @media all and (min-width: 992px) {
   .navbar .has-megamenu {
@@ -163,3 +170,46 @@ h6 {
     margin-top: 10px; } }
 
 /* ============ mobile view .end// ============ */
+.img-txt .img {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .img-txt .img .text-container {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+    transform: translateY(-50%);
+    z-index: 2; }
+    .img-txt .img .text-container a {
+      color: white;
+      font-size: 30px;
+      text-decoration: none; }
+
+.sm-banner {
+  position: relative;
+  height: 200px;
+  background: #5f5f5f; }
+  .sm-banner .bann-content {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center; }
+    .sm-banner .bann-content h1 {
+      color: white; }
+
+.custome-form label {
+  display: block; }
+
+.custome-form .m0-label p {
+  margin: 0; }
+
+.custome-form select {
+  word-wrap: normal;
+  width: 100% !important;
+  height: 57px;
+  padding: 0 10px; }

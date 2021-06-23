@@ -9,6 +9,16 @@
     background-color: #f7f7f7 !important;
 }
 
+.mega-col-list {
+    li {
+        display: flex;
+        align-items: center;
+        img {
+            margin-right: 5px;
+        }
+    }
+}
+
 
 /* ============ desktop view ============ */
 

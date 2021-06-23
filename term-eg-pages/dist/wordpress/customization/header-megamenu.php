@@ -23,7 +23,7 @@
         <div class="collapse navbar-collapse" id="main_nav">
             <ul class="navbar-nav">
                 <li class="nav-item active"><a class="nav-link" href="/">HOME </a></li>
-                <li class="nav-item"><a class="nav-link" href="/about-us-2"> TERM </a></li>
+                <li class="nav-item"><a class="nav-link" href="/about-term"> TERM </a></li>
 
                 <li class="nav-item dropdown has-megamenu">
                     <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">
@@ -48,22 +48,22 @@
                                         <div class="col-md-6">
                                             <h6 class="title">Mitsubishi Forklift/Heli Forklift/Noblelift Forklift</h6>
                                             <ul class="list-unstyled ms-1 mega-col-list">
-                                                <li><img src="https://via.placeholder.com/20"><a href="/corp-filter/">Deisel Forklift</a></li>
-                                                <li><img src="https://via.placeholder.com/20"><a href="/corp-filter/">Electric Forklift</a></li>
-                                                <li><img src="https://via.placeholder.com/20"><a href="/corp-filter/">Lithuim Stacker</a></li>
-                                                <li><img src="https://via.placeholder.com/20"><a href="/corp-filter/">Pallet truck</a></li>
-                                                <li><img src="https://via.placeholder.com/20"><a href="/corp-filter/">VNA</a></li>
-                                                <li><img src="https://via.placeholder.com/20"><a href="/corp-filter/">Towing tracktors</a></li>
+                                                <li><img src="https://via.placeholder.com/20"><a href="/corp-filter/?categories=Deisel%20Forklift">Deisel Forklift</a></li>
+                                                <li><img src="https://via.placeholder.com/20"><a href="/corp-filter/?categories=Electric%20Forklift">Electric Forklift</a></li>
+                                                <li><img src="https://via.placeholder.com/20"><a href="/corp-filter/?categories=Lithuim%20Stacker">Lithuim Stacker</a></li>
+                                                <li><img src="https://via.placeholder.com/20"><a href="/corp-filter/?categories=Pallet%20truck">Pallet truck</a></li>
+                                                <li><img src="https://via.placeholder.com/20"><a href="/corp-filter/?categories=Pallet%20truck">VNA</a></li>
+                                                <li><img src="https://via.placeholder.com/20"><a href="/corp-filter/?categories=Towing%20tracktors">Towing tracktors</a></li>
 
                                             </ul>
                                         </div>
                                         <div class="col-md-6">
                                             <h6 class="title" style="min-height: 40px;">Citycart</h6>
                                             <ul class="list-unstyled ms-1 mega-col-list">
-                                                <li><img src="https://via.placeholder.com/20"><a href="/corp-filter/">Cargo vehicles</a></li>
-                                                <li><img src="https://via.placeholder.com/20"><a href="/corp-filter/">Service vehicles</a></li>
-                                                <li><img src="https://via.placeholder.com/20"><a href="/corp-filter/">Passenger vehicles</a></li>
-                                                <li><img src="https://via.placeholder.com/20"><a href="/corp-filter/">shuttling buses</a></li>
+                                                <li><img src="https://via.placeholder.com/20"><a href="/corp-filter/?categories=Cargo%20vehicles">Cargo vehicles</a></li>
+                                                <li><img src="https://via.placeholder.com/20"><a href="/corp-filter/?categories=Service%20vehicles">Service vehicles</a></li>
+                                                <li><img src="https://via.placeholder.com/20"><a href="/corp-filter/?categories=Passenger%20vehicles">Passenger vehicles</a></li>
+                                                <li><img src="https://via.placeholder.com/20"><a href="/corp-filter/?categories=shuttling%20buses">shuttling buses</a></li>
 
                                             </ul>
                                         </div>
