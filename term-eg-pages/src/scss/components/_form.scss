@@ -1,0 +1,16 @@
+.custome-form {
+    label {
+        display: block;
+    }
+    .m0-label {
+        p {
+            margin: 0;
+        }
+    }
+    select {
+        word-wrap: normal;
+        width: 100% !important;
+        height: 57px;
+        padding: 0 10px;
+    }
+}

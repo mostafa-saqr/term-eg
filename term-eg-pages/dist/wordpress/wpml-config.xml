@@ -1,0 +1,31 @@
+<wpml-config>
+    <custom-fields>
+        <custom-field action="translate">gdlr-core-page-builder</custom-field>
+        <custom-field action="translate">gdlr-core-page-option</custom-field>
+    </custom-fields>
+    <custom-types>
+        <custom-type translate="1">portfolio</custom-type>
+        <custom-type translate="1">personnel</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="1">portfolio_tag</taxonomy>
+        <taxonomy translate="1">portfolio_category</taxonomy>
+        <taxonomy translate="1">personnel_category</taxonomy>
+        <taxonomy translate="1">page_category</taxonomy>
+    </taxonomies>
+    <admin-texts>
+        <key name="rftr_general">
+            <key name="top-bar-left-text" />
+            <key name="top-bar-right-text" />
+            <key name="header-right-button-text" />
+            <key name="logo-right-text" />
+            <key name="logo-right-box1-title" />
+            <key name="logo-right-box1-caption" />
+            <key name="logo-right-box2-title" />
+            <key name="logo-right-box2-caption" />
+            <key name="logo-right-box3-title" />
+            <key name="logo-right-box3-caption" />
+            <key name="copyright-text" />
+        </key>
+    </admin-texts>
+</wpml-config>

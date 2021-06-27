@@ -1,0 +1,19 @@
+<% var items = [
+    {
+        url:'/indev-filter/',
+        name:'Indevidual Product Line', 
+        img:'https://images.pexels.com/photos/274108/pexels-photo-274108.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'},
+    {
+        url:'/indev-filter/',
+        name:'Corporate Product Line',
+        img:'https://images.pexels.com/photos/2523921/pexels-photo-2523921.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
+        
+    }] %>
+    <div class="row">
+        <% items.map((item)=>{ %>
+
+            <div class="col-md-6">
+                <%- include('../../components/img-card', {cardTitle:item.name, imgSrc:item.img}) -%>
+            </div>
+            <% }) %>
+    </div>

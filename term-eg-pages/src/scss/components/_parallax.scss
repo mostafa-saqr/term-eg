@@ -1,0 +1,22 @@
+.parallax {
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    .parallax-content {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 2;
+        color: white;
+        width: 80%;
+        h3 {
+            color: white !important;
+            font-size: 50px;
+        }
+    }
+}
