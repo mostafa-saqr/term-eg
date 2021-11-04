@@ -1,0 +1,29 @@
+.prod-banner {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    .bann-content {
+            position: absolute;
+    top: 16%;
+    z-index: 2;
+    left: 8rem;
+    color: black;
+    background: #ffffffc2;
+    padding: 20px;
+    width:35%;
+        h1 {
+            font-size: 3rem;
+            color: black;
+        }
+    }
+}
+
+.breadcrumb {
+    li,
+    a {
+        color: white;
+    }
+    .breadcrumb-item+.breadcrumb-item::before {
+        color: #ffffff;
+    }
+}
